@@ -1,0 +1,153 @@
+<!--Sistema Realizado por: Dilson Joan Porras Ramones
+    C.I: 27.675.077
+    Carrera: Ing. Sistemas
+    Semestre: 6to-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>C.C Bicentenario</title>
+    <link rel="stylesheet" href="CSS3/estilosboletin.css">
+    <link rel="stylesheet" href="CSS3/reset.css">
+    <link rel="stylesheet" href="CSS3/estilos.css">
+    <script src="Js/comentario.js"></script>
+    <script src="Js/animacion.js"></script>
+    <link rel="shortcut icon" href="IMAGENES/icono.png" type="image/x-icon">
+</head> 
+<body>  
+     <div>  
+        <header class="cabecera1">
+            <figure>
+                <img class="imago4" src="IMAGENES/icono.png" alt="">
+            </figure>
+            <h1 class="cabecera2">
+                Consejo Comunal Bicentenario
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="practica 1.html">Inicio</a>
+                </li>
+               <!-- <li>
+                    <a href="#">Quienes somos</a>
+                </li>-->
+                <li>
+                    <a href="contacto.html">Contactanos</a>
+                </li>
+                <li>
+                    <a class="regi" href="registro.html" onclick="descripcion()">Registro</a>
+                </li>
+                <li>
+                    <a class="regi2" href="logueo.html" onclick="descripcion()">Logueo</a>
+                </li>
+                <li>
+                    <a href="logueoadmin.html" onclick=especificacion()>login Admin</a>
+                </li>
+            </ul>
+        </nav>
+    <!--<aside> 
+            <blockquote class="bk">Primer elemento</blockquote>
+            <blockquote class="bk">Segundo elemento</blockquote>
+            <blockquote class="bk">Tercer elemento</blockquote>
+        </aside> --> 
+        <section>
+            <article>
+                <header>
+                    <h1>Jornada Comunal de producto CLAP</h1>
+                </header>
+                <figure>
+                    <img class="imago5" src="IMAGENES/boletin.jpg" alt="Jornada CLAP">
+                </figure>
+                        <p>
+                            Estimados Vecinos, se les hace un llamado cordial en el dia 24/01/2021, dia en el cual se estara realizando la entrega del CLAP en la sede de nuestro consejo comunal. Se recomienda a cada uno de nosotros llevar su respectivo carnet de abastecimiento, estar al dia con el pago del producto y ser puntual a la hora de entrega; la mimsa sera a las 13:00. Esperamos de su cooperacion con las normas de Bioseguridad. Hasta pronto!
+                        </p>
+                <footer>
+                    <input type="text" class="coment-boletin" placeholder="¿Algun comentario? Ingresalo aqui!">
+                    <input type="submit" class="enviar-boletin" id="enviarcoment" value="Enviar" onclick = comentario()>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Jornada comunal de cedulacion</h1>
+                </header>
+                <figure>
+                    <img  class="imago6" src="IMAGENES/boletin 1.jpg" alt="Jornada de cedulacion">
+                </figure>
+                <p>
+                    Estimados Vecinos, se les hace un llamado cordial en el dia 12/02/2021, dia en el cual se estara realizando una jornada de cedulacion ciudadana en la que le invitamos a particiar para beneficio propio, esta ocurrira en la sede de nuestro consejo comunal. Se recomienda a cada uno de vosotros llevar su respectivo RIF y ser puntual a la hora de inicio de la jornada; la mimsa sera a las 14:00. Esperamos de su cooperacion con las normas de Bioseguridad. Hasta pronto!
+                </p>
+                <footer>
+                    <input type="text" class="coment-boletin" placeholder="¿Algun comentario? Ingresalo aqui!">
+                    <input type="submit" class="enviar-boletin" value="Enviar" onclick = comentario()>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Jornada comunal de Salud</h1>
+                </header>
+                <figure>
+                    <img class="imago7" src="IMAGENES/boletin 2.jpg" alt="Jornada medica">
+                </figure>
+                <p>
+                    Estimados Vecinos, se les hace un llamado cordial en el dia 19/04/2021, dia en el cual se estara realizando la jornada medica y de vacunacion en la sede de nuestro consejo comunal. Se recomienda a cada uno de nosotros llevar su respectiva libreta de vacunacion, en caso de ameritar consulta se presentaran MEDICOS FAMILIARES, NEFROLOGOS y OFTANMOLOGOS. Porfavor ser puntual a la hora de inicio de la jornada la mimsa sera a las 13:00. Esperamos de su cooperacion con las normas de Bioseguridad. Hasta pronto!
+                </p>
+                <footer>
+                    <input type="text" class="coment-boletin" placeholder="¿Algun comentario? Ingresalo aqui!">
+                    <input type="submit" class="enviar-boletin" value="Enviar" onclick = comentario()>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Jornada comunal de Gas</h1>
+                </header>
+                <figure>
+                    <img class="imago8" src="IMAGENES/boletin 3.jpg" alt="Jornada gasifera">
+                </figure>
+                <p>
+                    Estimados Vecinos, se les hace un llamado cordial en el dia 16/05/2021, dia en el cual se estara realizando la jornada de gas en la sede de nuestro consejo comunal. Se recomienda a cada uno de nosotros llevar su respectivo carnet de abastecimiento, estar al dia con el pago del producto y ser puntual a la hora de entrega; la mimsa sera a las 14:30. Esperamos de su cooperacion con las normas de Bioseguridad. Hasta pronto!
+                </p>
+                <footer>
+                    <input type="text" class="coment-boletin" placeholder="¿Algun comentario? Ingresalo aqui!">
+                    <input type="submit" class="enviar-boletin" value="Enviar" onclick = comentario()>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Jornada comunal de concientizacion juvenil</h1>
+                </header>
+                <figure>
+                    <img class="imago9" src="IMAGENES/boletin 4.jpg" alt="Jornada ONA">
+                </figure>
+                <p>
+                    Estimados Vecinos, se les hace un llamado cordial en el dia 04/06/2021, dia en el cual se estara realizando la Jornada de concientizacion de nuestros jovenes en materia Antidroga, la cual se llevara a cabo en la sede de nuestro consejo comunal. Se recomienda a cada uno de nosotros llevar su respectivo documento de identidad, llevar libreta de apuntes y ser puntual a la hora de entrega; la mimsa sera a las 13:00. Esperamos de su cooperacion con las normas de Bioseguridad. Hasta pronto!
+                </p>
+                <footer>
+                    <input type="text" class="coment-boletin" placeholder="¿Algun comentario? Ingresalo aqui!">
+                    <input type="submit" class="enviar-boletin" value="Enviar" onclick = comentario()>
+                </footer>
+            </article>
+        </section>
+        <footer class="piedepagina2">
+            <li>
+                Copyright 2020
+            </li>
+            <li>
+                Tachira, Venezuela 5001
+            </li>
+            <li>
+                consejocominalbicent@gmail.com
+            </li>
+            <li>
+                <i>
+                    telefono: +58 0276 555555
+                </i>
+            </li>
+        </footer>
+    </div> 
+
+</body>
+</html>
